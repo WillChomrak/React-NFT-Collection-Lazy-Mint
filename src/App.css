@@ -1,38 +1,96 @@
 .App {
   text-align: center;
+  background-color: #85DCBA; 
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  margin-top: 20px;
+}
+p {
+  font-size: 18px;
+  /* font-family: 'Anton', sans-serif; */
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+section {
+  padding: 60px 0;
+  scroll-margin-top: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Font */
+.special-font {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Main-Section*/
+#main {
+  color: #efefef;
+  padding-top: 120px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-description {
   display: flex;
-  flex-direction: column;
+  /* justify-content: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 50;  */
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Section2 */
+#tell-me-more {
+  background-color: #41B3A3; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Section3 */
+#charity {
+  background-color: #eb5483;
+}
+
+/* Section4 */
+.team-role {
+  font-weight: normal;
+  font-size: 28px;
+}
+.team-blurb {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+/* Gallery */
+.gallery-description{
+  padding: 20px 0;
+}
+
+/* Button */
+.mint-btn {
+  color: black;
+  background-color: #eb5483;
+  border: none;
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 5px
+}
+.mint-btn:hover {
+  background-color: #ec356f;
+
+}
+
+/* Footer */
+.footer-nav {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border-top: 1px solid #979797;
+}
+.footer-copyright {
+  font-size: 14px; 
+  padding-top: 10px;
+  font-weight: normal;
+  color: #979797;
+}
+.footer-link {
+  color: #979797; 
+  text-decoration: none;
 }
